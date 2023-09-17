@@ -1,0 +1,92 @@
+img{
+    display: block;
+    margin: auto;
+}
+.disponible {
+    border: 2px solid #606060;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #3DA21F;
+    margin: 3px;
+    margin-top: -20px;
+    margin-bottom: 20px;	
+    height: 50px;
+    width: 50px;
+}
+.disponible:hover{
+    border: 2px solid #606060;
+    border-radius: 10px;
+    background-color: #4169E1;
+    cursor: pointer;
+    margin: 3px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 50px;
+}
+.reserva{
+    border: 2px solid #606060;
+    border-radius: 10px;
+    background-color: #4169E1;
+    text-align: center;
+    margin: 3px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 50px;
+}
+.ocupado{
+    border: 2px solid #606060;
+    border-radius: 10px;
+    background-color: #F8EB2A;
+    text-align: center;
+    margin: 3px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.ocupado:hover{
+    cursor: default;
+}
+
+table.autobus{
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    border-collapse: separate;
+    padding: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: url("../recursos/Autobus.jpg");
+    background-repeat: no-repeat;
+    background-size: 1040px 390px;
+    /* border: 1px solid black; */
+    
+}
+
+.mostrarTablaInfo{
+    border-spacing: 20px 5px;
+}
+
+.cuadroDisponible {
+    width: 40px;
+    height: 40px;
+    background: #3DA21F;
+    border: 2px solid #606060;
+  }
+
+  .cuadroReservado {
+    width: 40px;       
+    height: 40px;
+    background: #F8EB2A;
+    border: 2px solid #606060;
+  }
+
+  .cuadroSuAsiento {
+    width: 40px;
+    height: 40px;
+    background: #4169E1;
+    border: 2px solid #606060;
+  }
